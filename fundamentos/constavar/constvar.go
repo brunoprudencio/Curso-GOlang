@@ -11,7 +11,7 @@ func main() {
 
 	// forma reduzida de criar uma var
 	area := PI * math.Pow(raio, 2)
-	fmt.Println(area)
+	fmt.Println("A área da circunferência é:", area)
 
 	const (
 		a = 1
@@ -30,4 +30,7 @@ func main() {
 
 	g, h, i := 2, false, "epa!"
 	fmt.Println(g, h, i)
+
+	pessoa, cpf := "Bruno Prudencio", "999.999.999-99"
+	fmt.Println(pessoa, cpf)
 }
